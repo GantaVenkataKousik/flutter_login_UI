@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
 
                   //continue with
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 18.0),
+                    padding: EdgeInsets.symmetric(horizontal: 17.5),
                     child: Row(
                       children: [
                         Expanded(
@@ -114,7 +114,7 @@ class LoginPage extends StatelessWidget {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                          padding: const EdgeInsets.symmetric(horizontal: 11.0),
                           child: Text(
                             "Or continute with",
                             style: TextStyle(
@@ -123,7 +123,7 @@ class LoginPage extends StatelessWidget {
                         ),
                         Expanded(
                           child: Divider(
-                            thickness: 0.5,
+                            thickness: 0.7,
                             color: Colors.grey[400],
                           ),
                         ),
