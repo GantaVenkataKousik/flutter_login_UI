@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
 
                   //continue with
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 17.5),
+                    padding: EdgeInsets.symmetric(horizontal: 18.0),
                     child: Row(
                       children: [
                         Expanded(
@@ -114,7 +114,7 @@ class LoginPage extends StatelessWidget {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 11.0),
+                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
                           child: Text(
                             "Or continute with",
                             style: TextStyle(
@@ -123,7 +123,7 @@ class LoginPage extends StatelessWidget {
                         ),
                         Expanded(
                           child: Divider(
-                            thickness: 0.7,
+                            thickness: 0.5,
                             color: Colors.grey[400],
                           ),
                         ),
@@ -140,8 +140,7 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SquareTile(
-                          imagePath: 'lib/assests/icons/google.png',
-                          height: 45),
+                          imagePath: 'assests/icons/google.png', height: 45),
                       SizedBox(
                         width: 15,
                       ),
